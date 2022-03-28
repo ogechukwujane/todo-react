@@ -1,0 +1,37 @@
+.todo-items-container {
+  width: 100%;
+  display: flex;
+  background-color: rgb(139, 128, 130);
+  /* background-color: rgb(224, 221, 221); */
+  border-radius: 0.3em;
+}
+.item-container {
+  width: 95%;
+  height: 3em;
+  display: flex;
+  background-color: white;
+  margin: 0.5em 1em;
+  border-radius: 0.5em;
+}
+.checkbox-container {
+  width: 5%;
+  padding: 0.8em 0em 0.8em 0.5em;
+  background-color: green;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+.tasks-container {
+  width: 90%;
+  display: flex;
+  /* background-color: green; */
+}
+.action-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.edit-container,
+.delete-container {
+  background-color: whitesmoke;
+  margin: 0.5em;
+  font-size: 1.3em;
+}

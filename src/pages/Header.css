@@ -1,0 +1,21 @@
+.header-rap {
+  background-color: green;
+  width: 100%;
+}
+.header-content {
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 23%;
+  display: flex;
+  padding: 0.3em;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .header-content {
+    margin: 1em;
+    width: 80%;
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,10 @@
+.todo-content-container {
+  width: 40%;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .todo-content-container {
+    /* margin: 1em; */
+    width: 90%;
+  }
+}

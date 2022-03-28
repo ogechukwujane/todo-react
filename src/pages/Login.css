@@ -1,0 +1,13 @@
+.login-container {
+  background-color: whiteSmoke;
+  width: 40%;
+  padding: 1em;
+  margin: auto;
+  border-radius: 0.5em;
+}
+@media screen and (max-width: 800px) {
+  .login-container {
+    /* margin: auto; */
+    width: 80%;
+  }
+}

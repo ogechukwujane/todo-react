@@ -1,0 +1,29 @@
+.add-task-btn {
+  background-color: green;
+  color: white;
+}
+
+.select-btn {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: whitesmoke;
+  font-size: 1em;
+}
+.button-container {
+  width: 40%;
+  /* background-color: whitesmoke; */
+  display: flex;
+  margin: 1em auto;
+  justify-content: space-between;
+}
+.todo-big-container {
+  width: 100%;
+  /* background-color: green; */
+}
+@media screen and (max-width: 800px) {
+  .button-container {
+    margin: auto;
+    width: 90%;
+  }
+}
